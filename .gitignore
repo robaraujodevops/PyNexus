@@ -1,0 +1,64 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Poetry & virtualenvs ---
+# As we use virtualenvs.in-project true, we can ignore the local folder .venv
+.venv/
+bin/
+include/
+share/
+
+# --- Environment Vars (CRITICAL) ---
+.env
+.env.local
+.env.*
+!.env.example
+
+# --- Tests & coverage ---
+htmlcov/
+.tox/
+.nosetests.config
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# --- Neovim / IDEs ---
+.netrwhist
+# If using'Persistence' ou 'Session' LazyVim plugins:
+.sessions/
+*.swp
+*.swo
+.vscode/
+
+# --- Logs ---
+*.log
+logs/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
